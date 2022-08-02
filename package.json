@@ -1,11 +1,14 @@
 {
-  "name": "911-clean",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:EAbimelec/911-clean.git",
-  "author": "Abimelec <abimelec70.arenas@gmail.com> and Samuel <samugutibarona@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "sass": "^1.54.0"
+  "name": "991-clean",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^3.0.0"
   }
 }
