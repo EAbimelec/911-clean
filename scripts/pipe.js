@@ -1,8 +1,8 @@
-import "./style.css";
-import javascriptLogo from "./javascript.svg";
-import { setupCounter } from "./counter.js";
+import '../styles/style.css';
 
-getComponent("/atoms/main.html", "#app");
+// eslint-disable-next-line no-use-before-define
+getComponent('/atoms/main.html', '#main');
+getComponent('/atoms/footer.html', '#footer');
 
 async function getComponent(path, elementId) {
   const fetchHTML = await fetch(path);
