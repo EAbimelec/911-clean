@@ -1,6 +1,5 @@
-import '../styles/style.css';
+import '../styles/footer.css';
 
-// eslint-disable-next-line no-use-before-define
 getComponent('/atoms/main.html', '#main');
 getComponent('/atoms/footer.html', '#footer');
 

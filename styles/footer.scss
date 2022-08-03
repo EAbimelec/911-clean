@@ -1,0 +1,48 @@
+$footer-background: #282d32;
+$autors-color-font: #414952;
+
+#footer-container {
+  background-color: $footer-background;
+
+  p {
+    margin: 0;
+  }
+}
+
+#footer-info {
+  color: white;
+  display: flex;
+}
+
+#autors {
+  color: $autors-color-font;
+}
+
+.info-column {
+  margin: 0 10%;
+}
+
+#autors {
+  display: flex;
+  justify-content: center;
+  p {
+    margin: 20px 0 40px 0;
+  }
+}
+
+#social-media-container {
+  display: flex;
+  justify-content: center;
+
+  #instagram {
+    height: 40px;
+  }
+  #facebook {
+    height: 34px;
+  }
+}
+
+#footer-img-container {
+  display: flex;
+  justify-content: center;
+}

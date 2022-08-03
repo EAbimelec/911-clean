@@ -1,0 +1,45 @@
+#footer-container {
+  background-color: #282d32;
+}
+#footer-container p {
+  margin: 0;
+}
+
+#footer-info {
+  color: white;
+  display: flex;
+}
+
+#autors {
+  color: #414952;
+}
+
+.info-column {
+  margin: 0 10%;
+}
+
+#autors {
+  display: flex;
+  justify-content: center;
+}
+#autors p {
+  margin: 20px 0 40px 0;
+}
+
+#social-media-container {
+  display: flex;
+  justify-content: center;
+}
+#social-media-container #instagram {
+  height: 40px;
+}
+#social-media-container #facebook {
+  height: 34px;
+}
+
+#footer-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=footer.css.map */
