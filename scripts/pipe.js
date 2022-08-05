@@ -1,7 +1,7 @@
-import '../styles/style.css';
+import '../styles/style.scss';
 
 // eslint-disable-next-line no-use-before-define
-getComponent('/atoms/main.html', '#main');
+getComponent('/atoms/header.html', '#header');
 getComponent('/atoms/footer.html', '#footer');
 
 async function getComponent(path, elementId) {
