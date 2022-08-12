@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  webServer:
+    image: 911clean
+    restart: always
+    ports:
+      - '8888:80'
+
+networks:
+  default:
