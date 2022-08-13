@@ -15,7 +15,6 @@ h3 {
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: center;
   background-color: white;
   justify-content: space-between;
   position: -webkit-sticky; /* Safari & IE */
@@ -30,13 +29,13 @@ h3 {
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: center;
   background-color: white;
   justify-content: space-between;
   position: -webkit-sticky; /* Safari & IE */
   position: sticky;
   top: 0;
   transition: height ease-in-out 0.3s;
+  z-index: 1 !important;
 }
 
 .logo {
@@ -136,29 +135,29 @@ h3 {
 
 .div-menu a:first-of-type:hover {
   margin-bottom: -5px;
-  color: #093D8A;
+  color: #093d8a;
   border-bottom: 5px solid;
 }
 .div-menu a:first-of-type:hover h3 {
-  color: #093D8A;
+  color: #093d8a;
 }
 
 .div-menu a:first-of-type + a:hover {
   margin-bottom: -5px;
-  color: #093D8A;
+  color: #093d8a;
   border-bottom: 5px solid;
 }
 .div-menu a:first-of-type + a:hover h3 {
-  color: #093D8A;
+  color: #093d8a;
 }
 
 .div-menu a:first-of-type + a + a:hover {
   margin-bottom: -5px;
-  color: #093D8A;
+  color: #093d8a;
   border-bottom: 5px solid;
 }
 .div-menu a:first-of-type + a + a:hover h3 {
-  color: #093D8A;
+  color: #093d8a;
 }
 
 .btn-menu {

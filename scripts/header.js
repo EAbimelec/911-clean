@@ -4,7 +4,6 @@ window.addEventListener('load', () => {
 
   window.onscroll = () => {
     const space = header.offsetTop;
-    console.log(space);
     if (space > 1) {
       header.classList.remove('major-div');
       header.classList.add('major-div2');
