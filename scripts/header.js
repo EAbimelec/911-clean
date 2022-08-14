@@ -9,8 +9,7 @@ window.addEventListener('load', () => {
       header.classList.add('major-div2');
       logo.classList.remove('logo');
       logo.classList.add('logo2');
-    }
-    if (space < 1) {
+    } else {
       header.classList.remove('major-div2');
       header.classList.add('major-div');
       logo.classList.add('logo');

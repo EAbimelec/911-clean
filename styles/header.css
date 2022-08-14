@@ -10,7 +10,6 @@ h3 {
 }
 
 .major-div {
-  width: 100%;
   height: 130px;
   display: flex;
   align-items: center;
@@ -21,10 +20,10 @@ h3 {
   position: sticky;
   top: 0;
   transition: height ease-in-out 0.3s;
+  padding: 0px 100px;
 }
 
 .major-div2 {
-  width: 100%;
   height: 100px;
   display: flex;
   align-items: center;
@@ -36,6 +35,7 @@ h3 {
   top: 0;
   transition: height ease-in-out 0.3s;
   z-index: 1 !important;
+  padding: 0px 100px;
 }
 
 .logo {
@@ -100,15 +100,6 @@ h3 {
   border-radius: 3px;
 }
 
-.llamar-call {
-  margin: 0ch;
-  background-color: aqua;
-  border-width: 10px;
-  padding: 7px 15px 7px 15px;
-  border-radius: 30px;
-  border-color: black;
-}
-
 .btn-call-ico {
   width: 20px;
   height: auto;
@@ -118,7 +109,7 @@ h3 {
   align-items: center;
   display: flex;
   flex-direction: row;
-  padding: 0px 0px 0px 20px;
+  justify-content: center;
 }
 
 .div-menu a:first-of-type {
@@ -163,7 +154,8 @@ h3 {
 .btn-menu {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.767);
-  margin-right: 30px;
+  margin-right: 15px;
+  margin-left: 15px;
   height: 40px;
   display: flex;
   flex-direction: row;
@@ -173,38 +165,57 @@ h3 {
 }
 
 @media (max-width: 1024px) {
-  .major-div {
+  .div-menu {
     align-items: center;
-    width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    width: 100%;
   }
-  .llamar-call {
-    margin: 0ch;
-    background-color: aqua;
-    border-width: 10px;
-    padding: 7px 15px 7px 15px;
-    border-radius: 30px;
-    margin-top: 10px;
-    border-color: black;
+  h3 {
+    font-size: large;
   }
-}
-.div-star {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.star-header-1 {
-  width: 20px;
-  margin-left: 250px;
-}
-
-.star-header-2 {
-  width: 20px;
-  margin-left: 300px;
+  .major-div {
+    width: 100%;
+    height: 166px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-between;
+    position: -webkit-sticky; /* Safari & IE */
+    position: sticky;
+    top: 0;
+    transition: height ease-in-out 0.3s;
+    padding: 0px 0px;
+  }
+  .major-div2 {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-between;
+    position: -webkit-sticky; /* Safari & IE */
+    position: sticky;
+    top: 0;
+    transition: height ease-in-out 0.3s;
+    z-index: 1 !important;
+    padding: 0px 0px;
+  }
+  .logo {
+    width: 200px;
+    height: auto;
+    padding: 10px 20px 10px 10px;
+    transition: all ease-in-out 0.3s;
+  }
+  .logo2 {
+    width: 130px;
+    height: auto;
+    transition: all ease-in-out 0.3s;
+    padding: 10px 20px 10px 10px;
+  }
 }
 
 /*# sourceMappingURL=header.css.map */
