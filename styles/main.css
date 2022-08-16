@@ -88,7 +88,7 @@ body {
   grid-row: 1;
 }
 .map-container h2 {
-  margin: 50px 0 20px;
+  margin: 50px 0 50px;
 }
 
 .g-recaptcha {
@@ -234,7 +234,7 @@ body {
   background-position: bottom;
 }
 .baner-container .info-container {
-  margin-top: 30px;
+  margin-top: 130px;
   flex-direction: column;
   display: flex;
   align-items: center;
@@ -242,6 +242,7 @@ body {
   height: 100%;
 }
 .baner-container .info-container h1 {
+  text-align: center;
   font-size: 60px;
   color: #12384E;
 }
